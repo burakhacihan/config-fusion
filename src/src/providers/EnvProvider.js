@@ -3,9 +3,9 @@ import path from "path";
 import dotenv from "dotenv";
 
 class EnvProvider {
-	private envConfig: { [key: string]: any } = {};
-
 	constructor() {
+		this.envConfig = {};
+
 		const envFilePath = path.resolve(process.cwd(), ".env");
 		if (fs.existsSync(envFilePath)) {
 			dotenv.config({ path: envFilePath });
@@ -15,7 +15,7 @@ class EnvProvider {
 		}
 	}
 
-	public getConfig(): { [key: string]: any } {
+	getConfig() {
 		return this.envConfig;
 	}
 }

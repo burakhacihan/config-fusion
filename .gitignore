@@ -33,3 +33,5 @@ reports/
 Thumbs.db
 Desktop.ini
 .DS_Store
+example/package-lock.json
+src/package-lock.json

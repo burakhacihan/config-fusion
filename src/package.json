@@ -2,11 +2,8 @@
 	"name": "config-fusion",
 	"version": "1.0.0",
 	"description": "It automatically converts the settings in the .env and json files into a javascript object and you can easily access it in your project.",
-	"main": "src/index.ts",
-	"scripts": {
-		"build": "tsc",
-		"test": "jest"
-	},
+	"main": "src/index.js",
+	"type": "module",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/burakhacihan/config-fusion.git"
@@ -17,7 +14,6 @@
 		"config",
 		"manager",
 		"config",
-		"ts",
 		"manager"
 	],
 	"author": "Burak Hacıhan",
@@ -26,12 +22,6 @@
 		"url": "https://github.com/burakhacihan/config-fusion/issues"
 	},
 	"homepage": "https://github.com/burakhacihan/config-fusion#readme",
-	"devDependencies": {
-		"@types/jest": "^29.5.14",
-		"@types/node": "^22.10.2",
-		"jest": "^29.7.0",
-		"ts-jest": "^29.2.5"
-	},
 	"dependencies": {
 		"dotenv": "^16.4.7"
 	}
