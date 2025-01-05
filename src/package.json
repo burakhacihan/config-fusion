@@ -1,6 +1,6 @@
 {
 	"name": "config-fusion",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "It automatically converts the settings in the .env and json files into a javascript object and you can easily access it in your project.",
 	"main": "src/index.js",
 	"type": "module",

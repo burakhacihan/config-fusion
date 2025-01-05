@@ -35,3 +35,6 @@ Desktop.ini
 .DS_Store
 example/package-lock.json
 src/package-lock.json
+src/*.tgz
+src/src/.npmignore
+src/src/.gitignore

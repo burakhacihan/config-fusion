@@ -8,5 +8,8 @@
 	},
 	"author": "",
 	"license": "ISC",
-	"description": ""
+	"description": "",
+	"dependencies": {
+		"config-fusion": "^1.0.3"
+	}
 }
